@@ -39,4 +39,4 @@ Feel free to reach out to me through the contact form on my website
 
 This incredible project was crafted with passion and dedication by [Mohammad Armaan](https://github.com/MohammadArmaan), the proud owner of this creation. Let's appreciate the effort and ingenuity behind this innovative tool! 👏✨
 
-Check out the website [Mohammad Armaan](https://mohammadarmaan.github.io/Mohammad-Armaan/)
+Check out the website [Mohammad Armaan](https://mohammadarmaan.netlify.app/)
