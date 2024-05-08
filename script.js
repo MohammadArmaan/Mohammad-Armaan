@@ -86,7 +86,6 @@ document
 
 /////////////////////////////////////////////////////////////
 // Styles
-console.log(getComputedStyle(message).color);
 
 message.style.backgroundColor = "#37383d";
 message.style.width = "120%";

@@ -278,7 +278,7 @@
         margin: 12rem auto 0 auto;
       
         background-color: #fff;
-        margin-left: 1rem;
+        margin-left: 0;
 
       }
       
@@ -440,6 +440,9 @@
     width: 3rem;
     font-size: 1.5rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .slider__btn--left {
