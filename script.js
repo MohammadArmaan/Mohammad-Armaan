@@ -264,8 +264,10 @@ imageTargets.forEach(img => imgObserver.observe(img));
 // Slider
 
 const slider = function(){
-  const names = ['Roll a Dice', 'Guess My Number', 'Flip a Coin' ,'Chart Genarator']
-  const links = ['https://mohammadarmaan.github.io/Roll-A-Dice-Game/', 
+  const names = ['Omnifood', 'Roll a Dice', 'Guess My Number', 'Flip a Coin' ,'Chart Genarator']
+  const links = [ 
+    'https://omnifoodeathealthy.netlify.app/',
+    'https://mohammadarmaan.github.io/Roll-A-Dice-Game/', 
     'https://mohammadarmaan.github.io/Guess-My-Number/', 
     'https://mohammadarmaan.github.io/Flip-A-Coin/',
     'https://mohammadarmaan.github.io/Chart-Genarator/'
