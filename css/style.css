@@ -410,6 +410,23 @@ h4 {
   background-color: #51cf66;
 }
 
+.tag--node{
+  background-color: #94d82d;
+}
+
+.tag--mongodb{
+  background-color: #51cf66;
+}
+
+.tag--express{
+  background-color: #000;
+  color: #fff;
+}
+
+.tag--react{
+  background-color: #3DC2EC;
+}
+
 .project-title{
   font-size: 2.4rem;
   color: #333;
