@@ -21,10 +21,20 @@
   --color-primary-darker: #ffbb00;
   --color-links: #3f7ddf;
   --color-secondary-darker: #2869d0;
+  --color-secondary-lighter: #61DAFB;
+  --color-secondary-lighter-darker: #57c4e2;
+  --color-secondary-lighter-opacity: #dff8fe;
   --color-tertiary-darker: #fd424b;
   --color-secondary-opacity: #bfd4f4;
   --color-primary-opacity: #ffcd0331;
   --color-tertiary-opacity: #ff58602d;
+  --color-green: #94d82d;
+  --color-green-opacity: #d4efab;
+  --color-green-darker: #85c229;
+  --color-dark: #111;
+  --color-darker: #000;
+  --color-dark-opacity: #b3b3b3;
+  --color-light: #fff;
   --gradient-primary: linear-gradient(to top left, #ffb003, #ffcb03);
   --gradient-secondary: linear-gradient(to top left, #2869d0, #95b7ed);
 }
@@ -511,6 +521,7 @@ h4 {
 .operations__tab {
   margin-right: 2.5rem;
   transform: translateY(-50%);
+  text-transform: uppercase;
 }
 
 .operations__tab span {
@@ -520,33 +531,34 @@ h4 {
 }
 
 .operations__tab--1 {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-secondary-lighter);
   margin: 1.5rem 2.5rem 2.5rem 2.5rem;
 
 }
 
 .operations__tab--1:hover {
-  background-color: var(--color-tertiary-darker);
+  background-color: var(--color-secondary-lighter-darker);
 }
 
 .operations__tab--2 {
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark);
   margin: 1.5rem 2.5rem 2.5rem 2.5rem;
+  color: var(--color-light);
 }
 
 .operations__tab--2:hover {
-  background-color: var(--color-secondary-darker);
+  background-color: var(--color-darker);
 }
 
 
 .operations__tab--3 {
-  background-color: var(--color-primary);
+  background-color: var(--color-green);
   margin: 1.5rem 2.5rem 2.5rem 2.5rem;
 
 }
 
 .operations__tab--3:hover {
-  background-color: var(--color-primary-darker);
+  background-color: var(--color-green-darker);
 }
 .operations__tab--active {
   transform: translateY(-66%);
@@ -587,6 +599,21 @@ h4 {
   width: 2.75rem;
 }
 
+.operations__icon .fa-react {
+  font-size: 4rem; 
+  color: var(--color-secondary-lighter);
+}
+
+.operations__icon .fa-n {
+  font-size: 4rem; 
+  color: var(--color-dark);
+}
+
+.operations__icon .fa-node {
+  font-size: 4rem; 
+  color: var(--color-green);
+}
+
 .operations__icon .css-icon {
   height: 2.75rem;
   width: 2.75rem;
@@ -603,14 +630,15 @@ h4 {
 }
 
 .operations__icon--1 {
-  background-color: var(--color-tertiary-opacity);
+  background-color: var(--color-secondary-lighter-opacity);
 }
 .operations__icon--2 {
-  background-color: var(--color-secondary-opacity);
+  background-color: var(--color-dark-opacity);
 }
 .operations__icon--3 {
-  background-color: var(--color-primary-opacity);
+  background-color: var(--color-green-opacity);
 }
+
 .operations__icon--1 .html-icon {
   color: var(--color-tertiary);
 }
