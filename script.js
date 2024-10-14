@@ -59,30 +59,13 @@ btnNavEl.addEventListener("click", function () {
 // Creating and Inserting Elements
 
 const header = document.querySelector(".header");
-
-const message = document.createElement("div");
-message.classList.add("cookie-message");
-message.textContent = "We use cookies for improved functionality and analytics";
-message.innerHTML = `We use cookies for improved functionality and analytics 
-<button class="btn btn--close-cookie">Got it!</button>`;
-
-header.append(message); //Adds has a last child of the HTML
-
-// Delete Elements
-document
-    .querySelector(".btn--close-cookie")
-    .addEventListener("click", function () {
-        message.remove();
-        // message.parentElement.removeChild(message)   //Old Way of Deleting Elements
-    });
-
 /////////////////////////////////////////////////////////////
 // Styles
 
-message.style.backgroundColor = "#37383d";
-message.style.width = "120%";
-message.style.height =
-    Number.parseFloat(getComputedStyle(message).height) + 40 + "px";
+// message.style.backgroundColor = "#37383d";
+// message.style.width = "120%";
+// message.style.height =
+//     Number.parseFloat(getComputedStyle(message).height) + 40 + "px";
 
 /////////////////////////////////////////////////////////////
 // Footer Year
@@ -90,15 +73,17 @@ const year = document.querySelector(".year");
 year.textContent = new Date().getFullYear();
 
 /////////////////////////////////////////////////////////////
-// Smooth Scrolling - Button
-const btnScrollTo = document.querySelector(".btn--scroll-to");
-const section1 = document.querySelector("#section--1");
-
-btnScrollTo.addEventListener("click", function (e) {
-    const s1coords = section1.getBoundingClientRect();
-
-    section1.scrollIntoView({ behavior: "smooth" }); // Scrolling
+// Download CV - Button
+document.getElementById("downloadCV").addEventListener("click", function () {
+    const cvUrl = "img/Armaan Resume.pdf"; 
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "Armaan Resume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link); 
 });
+
 
 /////////////////////////////////////////////////////////////
 // Page Navigation
@@ -247,16 +232,16 @@ imageTargets.forEach((img) => imgObserver.observe(img));
 const slider = function () {
     const names = [
         "Fast React Pizza",
-        "Roll a Dice",
-        "Guess My Number",
+        "React Quiz",
+        "Nisal Maps",
         "Omnifood",
         "World Wise",
         "usePopcorn",
     ];
     const links = [
         "https://fast-react-pizza-armaan.vercel.app/",
-        "https://mohammadarmaan.github.io/Roll-A-Dice-Game/",
-        "https://mohammadarmaan.github.io/Guess-My-Number/",
+        "https://react-quiz-arman.vercel.app/",
+        "https://mohammadarmaan.github.io/Nisal-Maps/",
         "https://omnifoodeathealthy.netlify.app/",
         "https://world-wise-armaan.vercel.app/",
         "https://usepopcorn-armaan.vercel.app/",

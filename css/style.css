@@ -433,6 +433,11 @@ h4 {
   color: #fff;
 }
 
+.tag--nextjs{
+  background-color: #000;
+  color: #fff;
+}
+
 .tag--react{
   background-color: #3DC2EC;
 }
