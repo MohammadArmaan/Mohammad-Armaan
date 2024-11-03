@@ -234,7 +234,7 @@ const slider = function () {
         "Fast React Pizza",
         "React Quiz",
         "Nisal Maps",
-        "Omnifood",
+        "SGPA/CGPA Calculator",
         "World Wise",
         "usePopcorn",
     ];
@@ -242,7 +242,7 @@ const slider = function () {
         "https://fast-react-pizza-armaan.vercel.app/",
         "https://react-quiz-arman.vercel.app/",
         "https://mohammadarmaan.github.io/Nisal-Maps/",
-        "https://omnifoodeathealthy.netlify.app/",
+        "https://mohammadarmaan.github.io/SGPA-and-CGPA-Calculator/",
         "https://world-wise-armaan.vercel.app/",
         "https://usepopcorn-armaan.vercel.app/",
     ];
