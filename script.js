@@ -237,6 +237,7 @@ const slider = function () {
         "SGPA/CGPA Calculator",
         "World Wise",
         "usePopcorn",
+        "Nisal Menu"
     ];
     const links = [
         "https://fast-react-pizza-armaan.vercel.app/",
@@ -245,6 +246,7 @@ const slider = function () {
         "https://mohammadarmaan.github.io/SGPA-and-CGPA-Calculator/",
         "https://world-wise-armaan.vercel.app/",
         "https://usepopcorn-armaan.vercel.app/",
+        "https://nisalmenu.netlify.app/",
     ];
     const slides = document.querySelectorAll(".slide");
     const btnLeft = document.querySelector(".slider__btn--left");
