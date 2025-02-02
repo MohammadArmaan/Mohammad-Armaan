@@ -272,6 +272,35 @@ img {
 
   align-items: start;
   justify-items: start;
+  
+}
+
+.header__heading {
+  animation: slide-right 3s ease-in-out;
+  
+}
+
+.header__image {
+  animation: slide-left 3s ease-in-out;
+
+}
+
+@keyframes slide-right {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
 }
 
 h1 {
