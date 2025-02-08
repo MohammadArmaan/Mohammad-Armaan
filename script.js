@@ -232,7 +232,7 @@ imageTargets.forEach((img) => imgObserver.observe(img));
 const slider = function () {
     const names = [
         "Fast React Pizza",
-        "React Quiz",
+        "Todo App",
         "Nisal Maps",
         "SGPA/CGPA Calculator",
         "World Wise",
@@ -241,7 +241,7 @@ const slider = function () {
     ];
     const links = [
         "https://fast-react-pizza-armaan.vercel.app/",
-        "https://react-quiz-arman.vercel.app/",
+        "https://todo-app-nisal-utilities.vercel.app/",
         "https://mohammadarmaan.github.io/Nisal-Maps/",
         "https://mohammadarmaan.github.io/SGPA-and-CGPA-Calculator/",
         "https://world-wise-armaan.vercel.app/",
